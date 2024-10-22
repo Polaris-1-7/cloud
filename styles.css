@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	color: white;
+	font-size: 20px;
+}
+
+header {
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+	background-image: url(1bei.jpg);
+	background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    margin: 0;
+	font-size: 40px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    margin: 20px 0;
+	font-size: 22px;
+	opacity: 0.8;
+}
+.tt p{
+	font-family: pristina;
+	font-size: 35px;
+}
+nav {
+    background-image: url(3bei.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    padding: 10px;
+	opacity: 0.5
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 30px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+	font-size: 18px;
+      transition: color 0.3s ease;
+}
+
+ nav a:hover {
+      color: gold;
+    }
+	
+main {
+	background-image: url(3bei.jpg);
+	background-color: midnightblue;
+    padding: 40px;
+	 background-position: center;
+    background-size: cover;
+	opacity: 0.8;
+}
+
+section {
+     margin-bottom: 30px;
+     max-width: 80%;
+     margin: 0 auto;
+}
+
+.head h2{
+    color: white;
+	font-size: 35px;
+    margin-bottom: 20px;
+	text-align: center;
+	box-shadow: 8px 1px 12px 4px rgba(228,216,216,0.89);
+}
+
+h2 {
+    color: white;
+	font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h3{
+	font-size: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+	font-size: 22px; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+footer {
+    background-image: url(1bei.jpg);
+	background-size: cover;
+	background-position:bottom;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+	font-family: 方正舒体;
+}
+.top{
+	 margin: 20px 0;
+	font-size: 20.5px;
+	opacity: 0.8;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+}
+#image-container {
+    width: 600px;
+    height: 400px;
+	float: right;
+    height: auto;
+}
+#image-container p{
+	float: left;
+}
+#image-container img {
+    width: 100%;
+    height: 100%;
+}
